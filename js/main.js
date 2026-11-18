@@ -204,7 +204,9 @@
         panel.classList.toggle('tuition-panel--eligibility', !isFees);
       }
       if (panelBg) {
-        panelBg.src = isFees ? 'Assets/fees structure/bg picture (8).png' : 'Assets/eligibility/bg picture (10).png';
+        panelBg.src = isFees
+          ? 'Assets/fees%20structure/bg%20picture%20(8).png'
+          : 'Assets/eligibility/bg%20picture%20(10).png';
       }
       Array.prototype.forEach.call(tabButtons, function (button) {
         var active = button.getAttribute('data-tab') === tabName;

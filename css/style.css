@@ -2325,18 +2325,18 @@ section {
   pointer-events: none;
   background: linear-gradient(
     110deg,
-    rgba(74, 20, 140, 0.16) 0%,
-    rgba(49, 27, 146, 0.1) 42%,
-    rgba(0, 151, 167, 0.08) 100%
+    rgba(42, 12, 90, 0.72) 0%,
+    rgba(49, 27, 146, 0.66) 42%,
+    rgba(0, 100, 120, 0.58) 100%
   );
 }
 
 .tuition-panel--eligibility .tuition-panel-overlay {
   background: linear-gradient(
     110deg,
-    rgba(26, 26, 124, 0.18) 0%,
-    rgba(74, 20, 146, 0.12) 48%,
-    rgba(0, 151, 167, 0.1) 100%
+    rgba(12, 10, 48, 0.82) 0%,
+    rgba(42, 16, 90, 0.78) 48%,
+    rgba(8, 36, 64, 0.74) 100%
   );
 }
 
@@ -2455,6 +2455,17 @@ section {
 .tuition-table td {
   color: #fff;
   font-weight: 500;
+}
+
+.tuition-table tbody tr.total td {
+  font-weight: 800 !important;
+  color: #ffe66d !important;
+  border-top: 1px solid rgba(255, 230, 109, 0.45);
+  padding-top: 1.1rem;
+}
+
+.tuition-table tbody tr.total td:first-child {
+  color: #ffe66d !important;
 }
 
 .tuition-fees-note {
@@ -2689,6 +2700,16 @@ section {
 
   .tuition-table tbody tr:last-child {
     margin-bottom: 0;
+  }
+
+  .tuition-table tbody tr.total {
+    background: rgba(255, 230, 109, 0.16);
+    border-color: rgba(255, 230, 109, 0.55);
+  }
+
+  .tuition-table tbody tr.total td {
+    font-weight: 800 !important;
+    color: #ffe66d !important;
   }
 
   .tuition-table td {
